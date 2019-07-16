@@ -14,5 +14,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <logger message="#[message.inboundProperties.'http.remote.address']" level="INFO" doc:name="Logger"/>
         <set-payload value="#['data in the setpayload']" doc:name="Set Payload"/>
         <logger message="second commit" level="INFO" doc:name="Logger"/>
+        <logger message="other" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
